@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Cardlist from './Cardlist';
+import {robots} from './robots'; // robots.js is not not exporting default, so we have to do destructuring
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+  <header className="container"></header>
+    <div className="container">
+      <Cardlist robots={robots} />
+  </div>
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
