@@ -12,7 +12,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: rgb(0,212,255);
-  background: radial-gradient(circle, var(--lightblue) 0%, var(--darkblue) 100%);
+  background: linear-gradient(356deg, var(--darkblue) 0%, var(--lightblue) 30%, var(--darkblue) 100%)
+}
+#root{
+  min-height: 100vh;
 }
 
 code {

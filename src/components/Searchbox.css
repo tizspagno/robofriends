@@ -1,0 +1,7 @@
+input.search {
+	height: 45px;
+    width: 240px;
+    border-radius: 5px;
+    border-color: var(--lightblue);
+    padding: 10px;
+}
